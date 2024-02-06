@@ -843,8 +843,8 @@ class NurbsCurve:
                 ax.set_ylabel('$y$ axis', fontsize=12, color='k', labelpad=12)
                 # ax_xy.xaxis.set_major_formatter(mpl.ticker.FormatStrFormatter('%.1f'))
                 # ax_xy.yaxis.set_major_formatter(mpl.ticker.FormatStrFormatter('%.1f'))
-                for t in ax.xaxis.get_major_ticks(): t.label.set_fontsize(12)
-                for t in ax.yaxis.get_major_ticks(): t.label.set_fontsize(12)
+                for t in ax.xaxis.get_major_ticks(): t.label1.set_fontsize(12)
+                for t in ax.yaxis.get_major_ticks(): t.label1.set_fontsize(12)
                 if ticks_off:
                     ax.set_xticks([])
                     ax.set_yticks([])
